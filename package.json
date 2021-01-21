@@ -1,0 +1,19 @@
+{
+  "name": "node-user-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "crud-db": "^1.1.0",
+    "express": "^4.17.1",
+    "joi": "13.1.0",
+    "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
